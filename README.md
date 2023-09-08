@@ -10,16 +10,17 @@ https://bb.cruzeirodosulvirtual.com.br
 
 **Ementa:**
 
-	Estudo de lógica de programação visando a elaboração de algoritmos em Pseudocódigo e em uma linguagem de programação para 
- 	a construção de soluções computacionais básicas. 
+	Estudo de lógica de programação visando a elaboração de algoritmos em Pseudocódigo e em uma linguagem
+ 	de programação para a construção de soluções computacionais básicas. 
 
 **Objetivos:**
 
-	▪ Desenvolver sistemas computacionais, identificando problemas da sociedade que tenham solução algorítmica, utilizando 
- 	ferramentas, metodologias e ambientes de programação, considerando os limites da computação e da ética.
+	▪ Desenvolver sistemas computacionais, identificando problemas da sociedade que tenham solução
+ 	algorítmica, utilizando ferramentas, metodologias e ambientes de programação, considerando os limites 
+  	da computação e da ética.
 
-	▪ Projetar sistemas computacionais, usando padrões de projeto, determinando sua arquitetura, garantindo sua qualidade técnica 
- 	e validando seu potencial de eficácia, eficiência, efetividade e manutenibilidade.
+	▪ Projetar sistemas computacionais, usando padrões de projeto, determinando sua arquitetura, garantindo 
+ 	sua qualidade técnica e validando seu potencial de eficácia, eficiência, efetividade e manutenibilidade.
 
 Temos aulas todas as *TERÇAS* e *QUINTAS* na *Sala 402*.
 
