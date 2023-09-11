@@ -1,6 +1,6 @@
 https://bb.cruzeirodosulvirtual.com.br
 
-**ALGORITIMOS DE PROGRAMAÇÃO**
+# **ALGORITIMOS DE PROGRAMAÇÃO**
 
 	Professor Marcelo Fassina
 
@@ -8,12 +8,12 @@ https://bb.cruzeirodosulvirtual.com.br
 
 	Carga horária (Horas-aula): 120h
 
-**Ementa:**
+## **Ementa:**
 
 	Estudo de lógica de programação visando a elaboração de algoritmos em Pseudocódigo e em uma linguagem
  	de programação para a construção de soluções computacionais básicas. 
 
-**Objetivos:**
+## **Objetivos:**
 
 	▪ Desenvolver sistemas computacionais, identificando problemas da sociedade que tenham solução
  	algorítmica, utilizando ferramentas, metodologias e ambientes de programação, considerando os limites 
@@ -22,9 +22,9 @@ https://bb.cruzeirodosulvirtual.com.br
 	▪ Projetar sistemas computacionais, usando padrões de projeto, determinando sua arquitetura, garantindo 
  	sua qualidade técnica e validando seu potencial de eficácia, eficiência, efetividade e manutenibilidade.
 
-Temos aulas todas as *TERÇAS* e *QUINTAS* na *Sala 402*.
+## Temos aulas todas as *TERÇAS* e *QUINTAS* na *Sala 402*.
 
-**Datas Importantes:**
+## **Datas Importantes:**
 
 	12/set - Avaliação A2 (Atividades em dupla - Peso 1,5 pontos).
 	
