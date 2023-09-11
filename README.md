@@ -22,7 +22,7 @@ https://bb.cruzeirodosulvirtual.com.br
 	▪ Projetar sistemas computacionais, usando padrões de projeto, determinando sua arquitetura, garantindo 
  	sua qualidade técnica e validando seu potencial de eficácia, eficiência, efetividade e manutenibilidade.
 
-## Temos aulas todas as *TERÇAS* e *QUINTAS* na *Sala 402*.
+## Temos aulas todas as **TERÇAS** e **QUINTAS** na *Sala 402*.
 
 ## **Datas Importantes:**
 
