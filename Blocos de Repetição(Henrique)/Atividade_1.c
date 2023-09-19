@@ -43,6 +43,6 @@ int main(){
 		}	
 	}
 	
-	printf("crhistofer é gay!!");
+	printf("crhistofer Ã© gay!!");
 	return 0;
 }
