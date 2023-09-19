@@ -36,6 +36,6 @@ int main{
 				printf("Saindo.\n");	
 				i++;
 				return 0;
-		}	
-	}
-}
+		}//Fim Switch	
+	}//Fim While
+}//Fim int Main
