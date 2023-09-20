@@ -36,6 +36,7 @@ int main(){
                     printf("%d\n", i);
                 }
                 break;
+                
             case 2:
                 // Atividade 2: Contagem regressiva de 10 até 0 e depois "Fogo!".
                 printf("Atividade 2\n\n");
@@ -44,6 +45,7 @@ int main(){
                 }
                 printf("Fogo!\n");
                 break;
+                
             case 3:
                 // Atividade 3: Mostra múltiplos de 5 de 1 a 100.
                 printf("Atividade 3\n\n");
@@ -51,6 +53,7 @@ int main(){
                     printf("%d\n", i);
                 }
                 break;
+                
             case 4:
                 // Atividade 4: Soma dos primeiros 100 números inteiros.
                 printf("Atividade 4\n\n");
@@ -60,6 +63,7 @@ int main(){
                 }
                 printf("Soma: %d\n", soma1);
                 break;
+                
             case 5:
                 // Atividade 5: Números pares até um número lido.
                 printf("Atividade 5\n\n");
@@ -70,6 +74,7 @@ int main(){
                     printf("%d\n", i);
                 }
                 break;
+                
 			case 6:
 				//6. Escreva um algoritmo que some os números fornecidos pelo usuário até que o número lido seja iguala zero. Ao final, mostre o resultado da soma.
 				printf("Atividade 6\n\n");
@@ -77,8 +82,9 @@ int main(){
 				int numero2;
 				int soma2 = 0;
 				
-				while (1){
-				    printf("Digite 0 para sair.");
+				printf("Digite 0 para sair.\n");
+				while (numero2 = 1){
+				    printf("Digite um numero: \n");
 				    scanf("%d", &numero2);
 				    
 				    if (numero2 == 0){
@@ -86,33 +92,75 @@ int main(){
 				    }    
 				    soma2 += numero2;
 				}
-				printf("Soma dos numeros é: %d",soma2);
-				
+				printf("Soma dos numeros é: %d\n\n",soma2);
 				break;
+				
 			case 7:
 				//7. Escreva um algoritmo que apresente na tela a tabuada de um número lido do teclado. Por exemplo,considerando que o número lido é 2, o formato da 
 				//apresentação deve ser o seguinte:ALGORITMO exemplo_3VARINTEIRO: contador;INICIOPARA(contador ? 1; contador <= 5; contador ? contador + 1) 
 				//FAÇAESCREVA(contador);FIM_PARAFIM
 				printf("Atividade 7\n\n");
 				
+				int numero3, res1;
+				
+				printf("Informe um número: ");
+				scanf("%d",&numero3);
+				
+				for(int i=1; i<=10; i++){
+                    res1= numero3 * i;
+				    printf("%d * %d = %d\n", numero3, i, res1);
+				}
 				break;
+				
 			case 8:
 				//8. Escreva um algoritmo que mostre a tabuada de um número inteiro qualquer que será digitado pelousuário, mas a tabuada não deve necessariamente
 				// iniciar em 1 e terminar em 10, ou seja, o valorinicial e final devem ser informados também pelo usuário, conforme mostrado no exemplo a seguir:
 				printf("Atividade 8\n\n");
+				int start1,end1,soma3, numero4;
+				printf("Informe o número inicial: \n");
+				scanf("%d",&start1);
+				printf("Informe o número final: \n");
+				scanf("%d",&end1);
+				printf("Informe o número de cálculo: \n");
+				scanf("%d",&numero4);
+				
+				for(int i = start1; i <= end1; i++){
+				    soma3 = numero4 * i;
+				    printf("%d * %d = %d\n", numero4, i, soma3);
+				}
 				
 				break;
+				
 			case 9:
-				//9. Escreva um algoritmo que calcule e mostre na tela uma tabela de valores de temperatura em Celsius eFarenheit. A faixa de temperaturas que 
+				//9. Escreva um algoritmo que calcule e mostre na tela uma tabela de valores de temperatura em Celsius eFarenheit. A faixa de temperaturas que
 				//deve ser mostrada é de 0 a 100 graus Celsius, em intervalos de5 graus.
 				printf("Atividade 9\n\n");
 				
+				float Fahrenheit;
+				
+				for(int i= 0; i<=100; i+=5){ 
+				    Fahrenheit = (i * 9/5) + 32;
+				    printf("Celsius: %d e Fahrenheit:  %f\n\n",i ,Fahrenheit);
+				}
 				break;
 			case 10:
 				//10. Escreva um algoritmo que calcule o fatorial de um número positivo qualquer. Por exemplo, se onúmero for 5, o resultado será 120 (5 * 4 * 3 * 2 * 1 = 120). 
 				//É importante obsevar que o fatorial donúmero 0 é igual a 1.
 				printf("Atividade 10\n\n");
+			
+				int numero5, res2;
+				printf("Informe um número: \n");
+				scanf("%d",&numero5);
+				res2 = 1;
 				
+				for(int i = 1; i<=numero5; i++){
+				    if(numero5 == 0){
+				        printf("O fatorial é: 1\n");
+				        break;
+				    }
+				    res2 = res2 * i;
+				}
+			    printf("O fatorial é: %d\n",res2);
 				break;
 			case 11:
 				//11. Escreva um algoritmo que escreva os 10 primeiros termos da série 1, 3, 9, 27, ...
@@ -182,7 +230,6 @@ int main(){
 				printf("sair\n");	
 				k++;
 		        return 0;
-			
 			default:
                 printf("Opção inválida. Tente novamente.\n");
                 break;
